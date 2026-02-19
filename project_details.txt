@@ -1,0 +1,36 @@
+About Dataset
+"Buy Now, Pay Later" (BNPL) services like Klarna, Affirm, and Afterpay have revolutionized the finance sector, offering short-term financing for immediate purchases. However, this ease of access brings significant credit risk. As traditional banks and fintechs race to optimize their lending logic, understanding the factors contributing to default is crucial.
+
+Content
+
+This dataset contains 50,000 synthetic rows representing customer transactions using various BNPL providers. It was generated using a custom Python script (Faker library) to mimic real-world patterns while ensuring 100% user privacy. It includes realistic correlations; for example, lower credit scores and high purchase amounts in volatile categories are statistically more likely to result in defaults.
+
+Key Use Cases:
+
+Credit Risk Modeling: Build binary classification models (XGBoost/LightGBM) to predict Repayment_Status.
+
+Customer Segmentation: Cluster users based on spending behavior and demographics.
+
+Data Visualization: Analyze how age, income, and product category affect payment discipline.
+
+Disclaimer: This is a synthetic dataset created for educational and analytical practice. It does not represent real individuals or specific financial institutions.
+
+Usability
+10.00
+
+License
+Apache 2.0
+
+Expected update frequency
+Never
+
+Tags
+Finance
+bnpl_dataset.csv(4.54 MB)
+
+9 of 9 columns
+
+About this file
+
+Suggest Edits
+"A structured CSV file containing 50,000 synthetic transaction records. Each row represents a unique Buy Now, Pay Later (BNPL) transaction. The dataset is clean, contains no missing values (NaNs), and is ready for immediate machine learning analysis without preprocessing."
